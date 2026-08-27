@@ -5,7 +5,7 @@ Central place for every tunable globel configuration setting in the project.
 
 WHY THIS FILE EXISTS (viva point):
 Hard coding values like chunk size or model names inside every module makes
-the codebase brittle -- change one thing, hunt through five files. Keeping
+the codebase brittle, change of one thing, hunt through five files. Keeping
 all the variables in one config module is a standard software-engineering practice
 (separation of configuration from logic) and makes the system easy to
 re-tune during evaluation (Step 5 of the project) without touching pipeline
