@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation (RAG) is a technique that combines a retrieval
+system with a generative language model. Instead of relying solely on what
+the model memorized during training, RAG first searches an external
+knowledge base for relevant information, then feeds that information to the
+model as context before it generates an answer.
+
+This approach reduces hallucination and allows the model to answer questions
+about documents it has never seen during training, such as a company's
+internal PDFs or a student's course notes.
+
+FAISS is a library developed by Facebook AI Research for efficient
+similarity search over dense vectors. It supports both exact and
+approximate nearest-neighbour search and can scale to billions of vectors.

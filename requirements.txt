@@ -1,0 +1,12 @@
+streamlit==1.38.0
+PyMuPDF==1.24.10
+docx2txt==0.8
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+transformers==4.44.2
+accelerate==0.33.0
+bitsandbytes==0.43.3
+torch==2.4.0
+rouge-score==0.1.2
+nltk==3.9.1
+numpy==1.26.4
